@@ -1,87 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  Social Media Dashboard
-  Total Followers: 23,004
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
 
-  Dark Mode
+    <title>dashboard</title>
+  </head>
+  <body>
+    <main class="container">
+      <!-- UPPER SECTION -->
+      <section class="upper-section">
+        <!-- upper header -->
+        <div class="upper-header">
+          <div class="title">
+            <h1>Social Media Dashboard</h1>
+            <h3>Total Followers: 23,004</h3>
+          </div>
+          <div class="switch-parent">
+            <p>Dark Mode</p>
+            <button class="switch">switch</button>
+          </div>
+        </div>
+        <!-- grid elements -->
+        <div class="grid">
+          <div class="social-container">
+            <!-- social element -->
+            <div class="social">
+              <div>
+                <img src="./images/icon-facebook.svg" alt="" />
+                <p>@nathanf</p>
+              </div>
+              <h1>1987</h1>
+              <p>FOLLOWERS</p>
+              <div>
+                <img src="./images/icon-up.svg" alt="" />
+                <p>12 Today</p>
+              </div>
+            </div>
+          </div>
+          <!-- social element -->
+          <div class="social-container">
+            <div class="social">
+              <div>
+                <img src="./images/icon-twitter.svg" alt="" />
+                <p>@nathanf</p>
+              </div>
+              <h1>1044</h1>
+              <p>FOLLOWERS</p>
+              <div>
+                <img src="./images/icon-up.svg" alt="" />
+                <p>99 Today</p>
+              </div>
+            </div>
+          </div>
+          <!-- social element -->
+          <div class="social-container">
+            <div class="social">
+              <div>
+                <img src="./images/icon-instagram.svg" alt="" />
+                <p>@nathanf</p>
+              </div>
+              <h1>1987</h1>
+              <p>FOLLOWERS</p>
+              <div>
+                <img src="./images/icon-up.svg" alt="" />
+                <p>12 Today</p>
+              </div>
+            </div>
+          </div>
+          <!-- social element -->
+          <div class="social-container">
+            <div class="social">
+              <div>
+                <img src="./images/icon-youtube.svg" alt="" />
+                <p>@nathanf</p>
+              </div>
+              <h1>1987</h1>
+              <p>FOLLOWERS</p>
+              <div>
+                <img src="./images/icon-up.svg" alt="" />
+                <p>12 Today</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <!-- LOWER SECTION -->
+      <section class="lower-section">
+        <!-- upper header -->
+        <div class="upper-header">
+          <h2>Overview - Today</h2>
+          <div></div>
+        </div>
+        <div class="grid">
+          <!-- social element -->
+          <div class="lower-social">
+            <div>
+              <p>Pages Views</p>
+              <img src="./images/icon-facebook.svg" alt="" />
+            </div>
+            <div>
+              <h3>87</h3>
+              <div>
+                <img src="./images/icon-up.svg" alt="" />
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+          <!-- social element -->
+          <div class="lower-social">
+            <div>
+              <p>Pages Views</p>
+              <img src="./images/icon-facebook.svg" alt="" />
+            </div>
+            <div>
+              <h3>52</h3>
+              <div>
+                <img src="./images/icon-down.svg" alt="" />
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+          <!-- social element -->
+          <div class="lower-social">
+            <div>
+              <p>Pages Views</p>
+              <img src="./images/icon-facebook.svg" alt="" />
+            </div>
+            <div>
+              <h3>87</h3>
+              <div>
+                <img src="./images/icon-up.svg" alt="" />
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+          <!-- social element -->
+          <div class="lower-social">
+            <div>
+              <p>Pages Views</p>
+              <img src="./images/icon-facebook.svg" alt="" />
+            </div>
+            <div>
+              <h3>87</h3>
+              <div>
+                <img src="./images/icon-up.svg" alt="" />
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+          <!-- social element -->
+          <div class="lower-social">
+            <div>
+              <p>Pages Views</p>
+              <img src="./images/icon-facebook.svg" alt="" />
+            </div>
+            <div>
+              <h3>87</h3>
+              <div>
+                <img src="./images/icon-up.svg" alt="" />
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+          <!-- social element -->
+          <div class="lower-social">
+            <div>
+              <p>Pages Views</p>
+              <img src="./images/icon-facebook.svg" alt="" />
+            </div>
+            <div>
+              <h3>87</h3>
+              <div>
+                <img src="./images/icon-up.svg" alt="" />
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+          <!-- social element -->
+          <div class="lower-social">
+            <div>
+              <p>Pages Views</p>
+              <img src="./images/icon-facebook.svg" alt="" />
+            </div>
+            <div>
+              <h3>87</h3>
+              <div>
+                <img src="./images/icon-up.svg" alt="" />
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+          <!-- social element -->
+          <div class="lower-social">
+            <div>
+              <p>Pages Views</p>
+              <img src="./images/icon-facebook.svg" alt="" />
+            </div>
+            <div>
+              <h3>87</h3>
+              <div>
+                <img src="./images/icon-up.svg" alt="" />
+                <p>3%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
 </html>
