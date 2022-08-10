@@ -32,7 +32,7 @@
   --gray-text: hsla(0, 0%, 0%, 0.555);
   --dark-text: hsl(230, 17%, 14%);
 }
-body {
+.big-container {
   width: 100vw;
   height: 100vh;
   font-family: "Inter", sans-serif;
